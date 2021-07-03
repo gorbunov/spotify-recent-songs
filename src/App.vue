@@ -18,7 +18,7 @@ export default {
   components: {SingleTrackItem},
   data: function () {
     return {
-      token: 'BQDmaZSw8UgY7Gzi4kna7mIAEamKVVcTbqcQADQNyJXZtq8WyAjc3bCDon3YOSkic53VtJP7L_XCrLDHDgrNOVJpZmqZIomhTCY9S3zi_7QuvjtZVyvEtj3ljiV7NkH8w6Rvjw4mSKGs0_Jh2oIqw6569aAedL_f2Soe5lzS',
+      token: 'BQBZXyPeJguw52ha-6a1H2rPqxVBiGt6ZQqemEMO8hmXywJpF0rebE4WIfSfmzt2edwmOTYVSPXktH4oViY6BRL0HfxtFVjL5OcifzrgNcqIrMd7z7gOmOinEgxEgbfmmpbWD2XvuSOpk_9pzH7ZNUDZ18L4USe2YlHfHXjf',
       tracks: [],
       error: false,
       errorText: '',
