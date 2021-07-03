@@ -9,9 +9,10 @@ export default {
   name: 'SingleTrackItem',
   data () {
     return {
-      link: this.$props.track.href,
+      link: this.$props.track.preview_url,
       name: this.$props.track.name,
       artists: this.$props.track.artists,
+      userToken: this.$props.token,
     }
   },
   computed: {
@@ -26,11 +27,16 @@ export default {
       default: function () {
         return {
           href: '',
+          preview_url: '',
           name: '',
           artists: [],
         }
       },
     },
+    token: {
+      type: String,
+      default: '',
+    }
   },
 }
 </script>

@@ -3,7 +3,7 @@
     <input type="text" style="width: 60vw;" v-model="token"/>
     <button @click="updateList">Request With Token</button>
     <ul class="songs">
-      <SingleTrackItem class="song" v-for="track in tracks" :track="track.track" :key="track.id"></SingleTrackItem>
+      <SingleTrackItem class="song" v-for="track in tracks" :track="track.track" :key="track.id" :token="token"></SingleTrackItem>
     </ul>
     <div class="error" v-if="error">{{ errorText }}</div>
   </div>
